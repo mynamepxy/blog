@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <header>
+        <h1>十八哥的Blog</h1>
+        <h4>乘风行,无惧</h4>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">导航1</a></li>
+            <li><a href="">导航2</a></li>
+            <li>
+                <a href="">导航3</a></li>
+            <li><a href="">导航4</a></li>
+        </ul>
+    </nav>
+    <div id="main">
+        <div id="lside">
+
+            <article>
+                <?php foreach($arts as $k=>$art){ ?>
+                <h2><a href="art1.php?art_id=<?php echo $art['art_id'] ?>"><?php echo $art['title'] ?></a></h2>
+                <div class="entry_header">
+                    <time><?php echo date('Y:m:d',$art['pubtime']) ?></time>
+                    by
+                    <a href="#"><?php echo $art['name'] ?></a>
+                    <a class="catlink" href="#"><?php echo $art['catname'] ?></a>
+                    <a class="comment" href="#"><?php echo $art['comm'] ?></a>
+                </div>
+                <div class="entry_content">
+                    <?php echo $art['content'] ?>
+                </div>
+                <?php } ?>
+            </article>
+            <div id="pagebar">
+                Pages:&nbsp;
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                4
+                <a href="#">5</a>
+                <a href="#">6</a>
+            </div>
+        </div>
+        <div id="rside">
+            <aside>
+                <form action="">
+                    <input type="text" name="search" placeholder="Search...">
+                </form>
+            </aside>
+            <aside>
+                <h4>标题列表</h4>
+                <ul>
+                    <li><a href="index.php">所有文章</a></li>
+                    <?php foreach($cat as $k=>$v){ ?>
+                    <li><a href="./index.php?cat_id=<?php echo $v['cat_id'] ?>"><?php echo $v["catname"] ?></a></li>
+                    <?php } ?>
+                </ul>
+
+            </aside>
+
+
+
+        </div>
+    </div>
+    <footer>
+        Copyright &copy; 2015 · GeneratePress · WordPress
+    </footer>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fa5e947c-d53d-449e-9898-7669bba000c9" name="pxy" url="http://localhost/blog">
+        <fileTransfer port="0" mountedRoot="C:\phpDome\blog" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

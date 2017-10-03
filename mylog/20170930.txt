@@ -1,0 +1,395 @@
+2017/09/30 10:02:26--------select * from art
+2017/09/30 10:02:33--------select art_id from art where art_id='1'
+2017/09/30 10:02:33--------delete from art where art_id='1'
+2017/09/30 10:02:33--------select tag_id from tag where art_id=1
+2017/09/30 10:02:38--------select * from art
+2017/09/30 10:02:43--------select art_id from art where art_id='5'
+2017/09/30 10:02:43--------delete from art where art_id='5'
+2017/09/30 10:02:44--------select tag_id from tag where art_id=5
+2017/09/30 10:02:45--------select * from art
+2017/09/30 10:03:04--------select art_id from art where art_id='44'
+2017/09/30 10:03:04--------delete from art where art_id='44'
+2017/09/30 10:03:04--------select tag_id from tag where art_id=44
+2017/09/30 10:03:11--------select * from art
+2017/09/30 10:04:14--------select * from art
+2017/09/30 10:04:16--------select art_id from art where art_id='6'
+2017/09/30 10:04:16--------delete from art where art_id='6'
+2017/09/30 10:04:16--------select tag_id from tag where art_id=6
+2017/09/30 10:04:50--------select art_id from art where art_id='6'
+2017/09/30 10:04:52--------select * from art
+2017/09/30 10:04:56--------select art_id from art where art_id='8'
+2017/09/30 10:04:56--------delete from art where art_id='8'
+2017/09/30 10:04:56--------select tag_id from tag where art_id=8
+2017/09/30 10:06:25--------select * from art
+2017/09/30 10:07:01--------select art_id from art where art_id='42'
+2017/09/30 10:07:01--------delete from art where art_id='42'
+2017/09/30 10:07:01--------select tag_id from tag where art_id=42
+2017/09/30 10:07:01--------delete from tag where tag_id='54'
+2017/09/30 10:07:03--------select * from art
+2017/09/30 10:09:30--------select * from art
+2017/09/30 10:09:32--------select art_id from art where art_id='7'
+2017/09/30 10:09:32--------delete from art where art_id='7'
+2017/09/30 10:09:32--------select art_id from tag where art_id=7
+2017/09/30 10:09:35--------select * from art
+2017/09/30 10:09:43--------select art_id from art where art_id='43'
+2017/09/30 10:09:43--------delete from art where art_id='43'
+2017/09/30 10:09:43--------select art_id from tag where art_id=43
+2017/09/30 10:10:43--------select art_id from art where art_id='43'
+2017/09/30 10:10:45--------select * from art
+2017/09/30 10:11:04--------select catname,cat_id from cat
+2017/09/30 10:11:17--------insert into art (title,cat_id,content,tags,pubtime) values ('o','1','o','555,666,777','1506737477')
+2017/09/30 10:11:17--------select art_id from art where pubtime= '1506737477'
+2017/09/30 10:11:17--------insert into tag (art_id,tag) values ('45','555'),('45','666'),('45','777')
+2017/09/30 10:11:19--------select catname,cat_id from cat
+2017/09/30 10:11:27--------insert into art (title,cat_id,content,tags,pubtime) values ('hhh','1',',mnn','555,666,777','1506737487')
+2017/09/30 10:11:27--------select art_id from art where pubtime= '1506737487'
+2017/09/30 10:11:27--------insert into tag (art_id,tag) values ('46','555'),('46','666'),('46','777')
+2017/09/30 10:11:29--------select catname,cat_id from cat
+2017/09/30 10:11:34--------select * from art where title=''
+2017/09/30 10:11:37--------insert into art (title,cat_id,content,tags,pubtime) values ('ggg','1','5','555,666,777','1506737497')
+2017/09/30 10:11:37--------select art_id from art where pubtime= '1506737497'
+2017/09/30 10:11:37--------insert into tag (art_id,tag) values ('47','555'),('47','666'),('47','777')
+2017/09/30 10:11:39--------select catname,cat_id from cat
+2017/09/30 10:11:59--------select * from art
+2017/09/30 10:12:08--------select * from art
+2017/09/30 10:12:44--------select art_id from art where art_id='47'
+2017/09/30 10:12:44--------delete from art where art_id='47'
+2017/09/30 10:12:44--------select art_id from tag where art_id=47
+2017/09/30 10:13:49--------select * from art
+2017/09/30 10:15:27--------select * from art
+2017/09/30 10:15:35--------select art_id from art where art_id='46'
+2017/09/30 10:15:35--------delete from art where art_id='46'
+2017/09/30 10:15:35--------select art_id from tag where art_id=46
+2017/09/30 10:15:35--------delete from tag where tag_id='Array'
+2017/09/30 10:15:37--------select * from art
+2017/09/30 10:16:11--------select * from art
+2017/09/30 10:16:13--------select art_id from art where art_id='45'
+2017/09/30 10:16:13--------delete from art where art_id='45'
+2017/09/30 10:16:13--------select art_id from tag where art_id=45
+2017/09/30 10:16:13--------delete from tag where tag_id='Array'
+2017/09/30 10:17:04--------select * from art
+2017/09/30 10:17:26--------select catname,cat_id from cat
+2017/09/30 10:17:33--------insert into art (title,cat_id,content,tags,pubtime) values ('4444','1','444','555,666,777','1506737853')
+2017/09/30 10:17:33--------select art_id from art where pubtime= '1506737853'
+2017/09/30 10:17:33--------insert into tag (art_id,tag) values ('48','555'),('48','666'),('48','777')
+2017/09/30 10:17:35--------select catname,cat_id from cat
+2017/09/30 10:17:42--------insert into art (title,cat_id,content,tags,pubtime) values ('4','1','4','555,666,777','1506737862')
+2017/09/30 10:17:42--------select art_id from art where pubtime= '1506737862'
+2017/09/30 10:17:42--------insert into tag (art_id,tag) values ('49','555'),('49','666'),('49','777')
+2017/09/30 10:17:44--------select catname,cat_id from cat
+2017/09/30 10:17:53--------insert into art (title,cat_id,content,tags,pubtime) values ('444','1','444','555,666,777','1506737873')
+2017/09/30 10:17:53--------select art_id from art where pubtime= '1506737873'
+2017/09/30 10:17:53--------insert into tag (art_id,tag) values ('50','555'),('50','666'),('50','777')
+2017/09/30 10:17:55--------select catname,cat_id from cat
+2017/09/30 10:18:02--------select * from art
+2017/09/30 10:19:19--------select * from art ORDER by art_id
+2017/09/30 10:20:30--------select * from art ORDER by art_id
+2017/09/30 10:20:32--------select art_id from art where art_id='50'
+2017/09/30 10:20:32--------select art_id from tag where art_id=50
+2017/09/30 10:20:32--------delete from tag where tag_id='Array'
+2017/09/30 10:21:28--------select art_id from art where art_id='50'
+2017/09/30 10:21:28--------select art_id from tag where art_id=50
+2017/09/30 10:21:28--------delete from tag where tag_id='50'
+2017/09/30 10:22:37--------select art_id from art where art_id='50'
+2017/09/30 10:22:37--------select art_id from tag where art_id=50
+2017/09/30 10:23:22--------select art_id from art where art_id='50'
+2017/09/30 10:23:22--------delete from art where art_id='50'
+2017/09/30 10:23:22--------select art_id from tag where art_id=50
+2017/09/30 10:23:22--------delete from tag where art_id='50'
+2017/09/30 10:23:52--------select * from art ORDER by art_id
+2017/09/30 10:23:55--------select art_id from art where art_id='49'
+2017/09/30 10:23:55--------delete from art where art_id='49'
+2017/09/30 10:23:55--------select art_id from tag where art_id=49
+2017/09/30 10:23:55--------delete from tag where art_id='49'
+2017/09/30 10:26:06--------select * from art ORDER by art_id
+2017/09/30 10:26:19--------select art_id from art where art_id='48'
+2017/09/30 10:26:20--------delete from art where art_id='48'
+2017/09/30 10:26:20--------select art_id from tag where art_id=48
+2017/09/30 10:26:20--------delete from tag where art_id='48'
+2017/09/30 10:26:21--------select * from art ORDER by art_id
+2017/09/30 10:34:08--------select catname,cat_id from cat
+2017/09/30 10:34:20--------insert into art (title,cat_id,content,tags,pubtime) values ('123','1','1231','123','1506738860')
+2017/09/30 10:34:20--------select * from art where title='123'
+2017/09/30 10:34:20--------select art_id from art where pubtime= '1506738860'
+2017/09/30 10:34:20--------insert into tag (art_id,tag) values ('51','123')
+2017/09/30 10:34:25--------select catname,cat_id from cat
+2017/09/30 10:35:44--------select catname,cat_id from cat
+2017/09/30 10:35:50--------insert into art (title,cat_id,content,tags,pubtime) values ('123','1','123','123','1506738950')
+2017/09/30 10:35:50--------select * from art where title='123'
+2017/09/30 10:35:50--------select art_id from art where pubtime= '1506738950'
+2017/09/30 10:35:50--------insert into tag (art_id,tag) values ('52','123')
+2017/09/30 10:35:53--------select catname,cat_id from cat
+2017/09/30 10:37:22--------select catname,cat_id from cat
+2017/09/30 10:37:29--------insert into art (title,cat_id,content,tags,pubtime) values ('123','1','12','','1506739049')
+2017/09/30 10:37:29--------select * from art where title='123'
+2017/09/30 10:37:31--------select catname,cat_id from cat
+2017/09/30 10:37:53--------select catname,cat_id from cat
+2017/09/30 10:38:02--------select * from art where title='123'
+2017/09/30 10:38:13--------select * from art where title='123'
+2017/09/30 10:38:18--------select * from art where title='123'
+2017/09/30 10:38:18--------insert into art (title,cat_id,content,tags,pubtime) values ('123','1','222','','1506739098')
+2017/09/30 10:38:27--------select catname,cat_id from cat
+2017/09/30 10:39:25--------select catname,cat_id from cat
+2017/09/30 10:39:32--------select * from art where title='123'
+2017/09/30 10:39:36--------insert into art (title,cat_id,content,tags,pubtime) values ('123','1','123','','1506739176')
+2017/09/30 10:39:36--------select * from art where title='123'
+2017/09/30 10:39:38--------select catname,cat_id from cat
+2017/09/30 10:44:50--------select catname,cat_id from cat
+2017/09/30 10:44:55--------select * from art where title='123'
+2017/09/30 10:45:03--------select * from art where title=''
+2017/09/30 10:45:20--------select * from art where title='123'
+2017/09/30 10:45:25--------insert into art (title,cat_id,content,tags,pubtime) values ('123','1','123','','1506739525')
+2017/09/30 10:45:31--------select catname,cat_id from cat
+2017/09/30 10:54:01--------select * from art where title=''
+2017/09/30 10:57:41--------select catname,cat_id from cat
+2017/09/30 10:57:44--------select * from art where title='123'
+2017/09/30 10:57:48--------select * from art where title='123'
+2017/09/30 10:57:51--------select * from art where title='123'
+2017/09/30 10:57:55--------select * from art where title=''
+2017/09/30 10:57:59--------select title from art where title='123'
+2017/09/30 10:58:01--------select catname,cat_id from cat
+2017/09/30 10:58:41--------select * from art ORDER by art_id
+2017/09/30 10:58:59--------select * from art where title='hello'
+2017/09/30 10:59:04--------select * from art where title=''
+2017/09/30 10:59:08--------select title from art where title='hello'
+2017/09/30 10:59:12--------select catname,cat_id from cat
+2017/09/30 10:59:42--------select * from cat ORDER by cat_id
+2017/09/30 11:00:11--------select cat_id,catname from cat where cat_id=3
+2017/09/30 11:00:11--------select cat_id,catname from cat where cat_id=3
+2017/09/30 11:00:17--------select cat_id,num from cat where cat_id=3
+2017/09/30 14:56:36--------select * from cat ORDER by cat_id
+2017/09/30 14:56:38--------select * from cat ORDER by cat_id
+2017/09/30 14:56:44--------select cat_id,num from cat where cat_id=3
+2017/09/30 14:58:37--------select cat_id,num from cat where cat_id=3
+2017/09/30 14:58:39--------select * from cat where cat_id='3'
+2017/09/30 14:58:39--------select * from cat where cat_id='3'
+2017/09/30 14:58:39--------delete from cat where cat_id='3'
+2017/09/30 14:58:39--------错误查询:select * from art cat_id=3错误描述:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=3' at line 1
+2017/09/30 14:59:07--------select * from cat ORDER by cat_id
+2017/09/30 15:02:06--------select cat_id,num from cat where cat_id=1
+2017/09/30 15:02:08--------select * from cat where cat_id='1'
+2017/09/30 15:02:08--------select * from cat where cat_id='1'
+2017/09/30 15:02:08--------delete from cat where cat_id='1'
+2017/09/30 15:02:08--------select * from art where cat_id=1
+2017/09/30 15:02:08--------select * from art where cat_id=1
+2017/09/30 15:02:08--------delete from art where cat_id='1'
+2017/09/30 15:02:08--------delete from tag where art_id=56
+2017/09/30 15:02:10--------select * from cat ORDER by cat_id
+2017/09/30 15:03:44--------select * from cat ORDER by cat_id
+2017/09/30 15:03:53--------select * from cat ORDER by cat_id
+2017/09/30 15:03:54--------select * from cat ORDER by cat_id
+2017/09/30 15:04:00--------select catname,cat_id from cat
+2017/09/30 15:04:00--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/30 15:04:12--------select * from cat ORDER by cat_id
+2017/09/30 15:04:14--------select * from cat ORDER by cat_id
+2017/09/30 15:04:16--------select * from cat ORDER by cat_id
+2017/09/30 15:04:18--------select * from cat ORDER by cat_id
+2017/09/30 15:05:14--------select * from cat ORDER by cat_id
+2017/09/30 15:05:16--------select * from cat ORDER by cat_id
+2017/09/30 15:05:19--------select * from art ORDER by art_id
+2017/09/30 15:05:21--------select catname,cat_id from cat
+2017/09/30 15:05:29--------select * from art where title='111'
+2017/09/30 15:05:31--------select title from art where title='111'
+2017/09/30 15:05:31--------错误查询:insert into art (title,cat_id,content,tags,pubtime) values ('111','','22','','1506755131')错误描述:Incorrect integer value: '' for column 'cat_id' at row 1
+2017/09/30 15:05:42--------select catname,cat_id from cat
+2017/09/30 15:09:49--------select catname,cat_id from cat
+2017/09/30 15:09:54--------select * from art where title='444'
+2017/09/30 15:10:01--------select count(*) from cat where cat_id=''
+2017/09/30 15:10:03--------select catname,cat_id from cat
+2017/09/30 15:10:30--------select catname,cat_id from cat
+2017/09/30 15:10:33--------select * from art where title='4444'
+2017/09/30 15:10:35--------select count(*) from cat where cat_id=''
+2017/09/30 15:12:38--------select catname,cat_id from cat
+2017/09/30 15:12:39--------select catname,cat_id from cat
+2017/09/30 15:13:41--------select * from cat where catname='计算机'
+2017/09/30 15:13:41--------select * from cat where catname='计算机'
+2017/09/30 15:13:41--------insert into cat (catname) values ('计算机')
+2017/09/30 15:13:57--------select catname,cat_id from cat
+2017/09/30 15:14:04--------select * from art where title='123'
+2017/09/30 15:14:07--------select count(*) from cat where cat_id='1'
+2017/09/30 15:14:07--------select count(*) from cat where cat_id='1'
+2017/09/30 15:14:11--------select catname,cat_id from cat
+2017/09/30 15:14:17--------select * from art where title='456666'
+2017/09/30 15:14:18--------select count(*) from cat where cat_id='1'
+2017/09/30 15:14:18--------select count(*) from cat where cat_id='1'
+2017/09/30 15:14:20--------select catname,cat_id from cat
+2017/09/30 15:14:39--------select * from art where title='66好'
+2017/09/30 15:14:41--------select count(*) from cat where cat_id='1'
+2017/09/30 15:14:41--------select count(*) from cat where cat_id='1'
+2017/09/30 15:15:27--------select catname,cat_id from cat
+2017/09/30 15:15:32--------select * from art where title='123'
+2017/09/30 15:15:34--------select count(*) from cat where cat_id='1'
+2017/09/30 15:15:34--------select title from art where title='123'
+2017/09/30 15:15:34--------insert into art (title,cat_id,content,tags,pubtime) values ('123','1','123','','1506755734')
+2017/09/30 15:15:36--------select catname,cat_id from cat
+2017/09/30 15:24:38--------select catname,cat_id from cat
+2017/09/30 15:24:49--------select * from art where title='123'
+2017/09/30 15:24:55--------select count(*) from cat where cat_id='1'
+2017/09/30 15:24:55--------select title from art where title='123'
+2017/09/30 15:24:55--------insert into art (title,cat_id,content,tags,pubtime) values ('123','1','123','555,666,777','1506756295')
+2017/09/30 15:24:55--------select art_id from art where pubtime= '1506756295'
+2017/09/30 15:24:55--------insert into tag (art_id,tag) values ('2','555'),('2','666'),('2','777')
+2017/09/30 15:24:57--------select catname,cat_id from cat
+2017/09/30 15:28:48--------select catname,cat_id from cat
+2017/09/30 15:29:02--------select * from art ORDER by art_id
+2017/09/30 15:29:04--------select art_id from art where art_id='2'
+2017/09/30 15:29:04--------delete from art where art_id='2'
+2017/09/30 15:29:04--------select art_id from tag where art_id=2
+2017/09/30 15:29:04--------delete from tag where art_id='2'
+2017/09/30 15:29:06--------select * from art ORDER by art_id
+2017/09/30 15:29:24--------select catname,cat_id from cat
+2017/09/30 15:29:32--------select * from art where title='test1'
+2017/09/30 15:29:38--------select count(*) from cat where cat_id='1'
+2017/09/30 15:29:38--------select title from art where title='test1'
+2017/09/30 15:29:38--------insert into art (title,cat_id,content,tags,pubtime) values ('test1','1','1234','555,666,777','1506756578')
+2017/09/30 15:29:38--------select art_id from art where pubtime= '1506756578'
+2017/09/30 15:29:38--------insert into tag (art_id,tag) values ('3','555'),('3','666'),('3','777')
+2017/09/30 15:29:38--------select num from cat where cat_id = '1'
+2017/09/30 15:29:38--------update cat set cat_id='1',num='1' where cat_id='1'
+2017/09/30 15:30:33--------select catname,cat_id from cat
+2017/09/30 15:30:34--------select catname,cat_id from cat
+2017/09/30 15:30:59--------select * from art where title='teat2'
+2017/09/30 15:31:10--------select count(*) from cat where cat_id='1'
+2017/09/30 15:31:10--------select title from art where title='teat2'
+2017/09/30 15:31:10--------insert into art (title,cat_id,content,tags,pubtime) values ('teat2','1','www','ww,dddd','1506756670')
+2017/09/30 15:31:10--------select art_id from art where pubtime= '1506756670'
+2017/09/30 15:31:10--------insert into tag (art_id,tag) values ('4','ww'),('4','dddd')
+2017/09/30 15:31:10--------select num from cat where cat_id = '1'
+2017/09/30 15:31:10--------update cat set cat_id='1',num='2' where cat_id='1'
+2017/09/30 15:31:12--------select catname,cat_id from cat
+2017/09/30 15:33:42--------select * from art where title='test3'
+2017/09/30 15:34:09--------select count(*) from cat where cat_id='1'
+2017/09/30 15:34:09--------select title from art where title='test3'
+2017/09/30 15:34:09--------insert into art (title,cat_id,content,tags,pubtime,pic) values ('test3','1','1122','222,mm','1506756849','C:\phpDome\blog/upload/2017/09/30/1506756849.jpeg')
+2017/09/30 15:34:09--------select art_id from art where pubtime= '1506756849'
+2017/09/30 15:34:09--------insert into tag (art_id,tag) values ('5','222'),('5','mm')
+2017/09/30 15:34:09--------select num from cat where cat_id = '1'
+2017/09/30 15:34:09--------update cat set cat_id='1',num='3' where cat_id='1'
+2017/09/30 15:34:12--------select catname,cat_id from cat
+2017/09/30 15:35:05--------select * from cat ORDER by cat_id
+2017/09/30 15:35:15--------select * from cat where catname='艺术'
+2017/09/30 15:35:15--------select * from cat where catname='艺术'
+2017/09/30 15:35:15--------insert into cat (catname) values ('艺术')
+2017/09/30 15:35:21--------select catname,cat_id from cat
+2017/09/30 15:35:38--------select * from art where title='画画'
+2017/09/30 15:35:54--------select count(*) from cat where cat_id='2'
+2017/09/30 15:35:54--------select title from art where title='画画'
+2017/09/30 15:35:54--------insert into art (title,cat_id,content,tags,pubtime,pic) values ('画画','2','公告','33个,经济','1506756954','C:\phpDome\blog/upload/2017/09/30/1506756954.jpg')
+2017/09/30 15:35:54--------select art_id from art where pubtime= '1506756954'
+2017/09/30 15:35:54--------insert into tag (art_id,tag) values ('6','33个'),('6','经济')
+2017/09/30 15:35:54--------select num from cat where cat_id = '2'
+2017/09/30 15:35:54--------update cat set cat_id='2',num='1' where cat_id='2'
+2017/09/30 15:35:55--------select catname,cat_id from cat
+2017/09/30 15:36:15--------select * from art ORDER by art_id
+2017/09/30 15:36:20--------select * from art ORDER by art_id
+2017/09/30 15:36:30--------select catname,cat_id from cat
+2017/09/30 15:36:30--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/30 15:36:34--------select catname,cat_id from cat
+2017/09/30 15:36:34--------select art.title,art.art_id,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/30 15:36:34--------select art.title,art.art_id,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/30 15:36:34--------select * from comment  where art_id=5 ORDER by pubtime DESC
+2017/09/30 15:36:41--------select * from cat ORDER by cat_id
+2017/09/30 15:37:09--------select cat_id,num from cat where cat_id=2
+2017/09/30 15:37:10--------select * from cat where cat_id='2'
+2017/09/30 15:37:10--------select * from cat where cat_id='2'
+2017/09/30 15:37:10--------delete from cat where cat_id='2'
+2017/09/30 15:37:10--------select * from art where cat_id=2
+2017/09/30 15:37:10--------select * from art where cat_id=2
+2017/09/30 15:37:10--------delete from art where cat_id='2'
+2017/09/30 15:37:10--------delete from tag where art_id=6
+2017/09/30 15:37:12--------select * from cat ORDER by cat_id
+2017/09/30 15:37:42--------select cat_id,num from cat where cat_id=1
+2017/09/30 15:37:43--------select * from cat where cat_id='1'
+2017/09/30 15:37:43--------select * from cat where cat_id='1'
+2017/09/30 15:37:43--------delete from cat where cat_id='1'
+2017/09/30 15:37:43--------select * from art where cat_id=1
+2017/09/30 15:37:43--------select * from art where cat_id=1
+2017/09/30 15:37:43--------delete from art where cat_id='1'
+2017/09/30 15:37:44--------delete from tag where art_id=3
+2017/09/30 15:37:45--------select * from cat ORDER by cat_id
+2017/09/30 15:38:27--------select * from cat where catname='计算机'
+2017/09/30 15:38:27--------select * from cat where catname='计算机'
+2017/09/30 15:38:27--------insert into cat (catname) values ('计算机')
+2017/09/30 15:38:32--------select catname,cat_id from cat
+2017/09/30 15:38:37--------select * from art where title='123'
+2017/09/30 15:38:44--------select count(*) from cat where cat_id='3'
+2017/09/30 15:38:44--------select title from art where title='123'
+2017/09/30 15:38:44--------insert into art (title,cat_id,content,tags,pubtime) values ('123','3','333','555,666,777','1506757124')
+2017/09/30 15:38:44--------select art_id from art where pubtime= '1506757124'
+2017/09/30 15:38:44--------insert into tag (art_id,tag) values ('7','555'),('7','666'),('7','777')
+2017/09/30 15:38:44--------select num from cat where cat_id = '3'
+2017/09/30 15:38:44--------update cat set cat_id='3',num='1' where cat_id='3'
+2017/09/30 15:38:45--------select catname,cat_id from cat
+2017/09/30 15:38:57--------select * from cat ORDER by cat_id
+2017/09/30 15:38:59--------select cat_id,num from cat where cat_id=3
+2017/09/30 15:39:01--------select * from cat where cat_id='3'
+2017/09/30 15:39:01--------select * from cat where cat_id='3'
+2017/09/30 15:39:01--------delete from cat where cat_id='3'
+2017/09/30 15:39:01--------select * from art where cat_id=3
+2017/09/30 15:39:01--------select * from art where cat_id=3
+2017/09/30 15:39:01--------delete from art where cat_id='3'
+2017/09/30 15:39:01--------delete from tag where art_id=7
+2017/09/30 15:39:03--------select * from cat ORDER by cat_id
+2017/09/30 15:39:22--------select * from cat where catname='计算机'
+2017/09/30 15:39:22--------select * from cat where catname='计算机'
+2017/09/30 15:39:22--------insert into cat (catname) values ('计算机')
+2017/09/30 15:39:28--------select * from cat where catname='艺术'
+2017/09/30 15:39:28--------select * from cat where catname='艺术'
+2017/09/30 15:39:28--------insert into cat (catname) values ('艺术')
+2017/09/30 15:39:33--------select catname,cat_id from cat
+2017/09/30 15:39:36--------select * from art where title='123'
+2017/09/30 15:39:43--------select count(*) from cat where cat_id='4'
+2017/09/30 15:39:43--------select title from art where title='123'
+2017/09/30 15:39:43--------insert into art (title,cat_id,content,tags,pubtime) values ('123','4','1','555,666,777','1506757183')
+2017/09/30 15:39:43--------select art_id from art where pubtime= '1506757183'
+2017/09/30 15:39:43--------insert into tag (art_id,tag) values ('8','555'),('8','666'),('8','777')
+2017/09/30 15:39:43--------select num from cat where cat_id = '4'
+2017/09/30 15:39:43--------update cat set cat_id='4',num='1' where cat_id='4'
+2017/09/30 15:39:44--------select catname,cat_id from cat
+2017/09/30 15:39:51--------select * from art where title='123'
+2017/09/30 15:39:54--------select * from art where title='1232'
+2017/09/30 15:40:17--------select count(*) from cat where cat_id='5'
+2017/09/30 15:40:17--------select title from art where title='1232'
+2017/09/30 15:40:17--------insert into art (title,cat_id,content,tags,pubtime) values ('1232','5','2222','密码 ,hhhhhh','1506757217')
+2017/09/30 15:40:17--------select art_id from art where pubtime= '1506757217'
+2017/09/30 15:40:17--------insert into tag (art_id,tag) values ('9','密码 '),('9','hhhhhh')
+2017/09/30 15:40:17--------select num from cat where cat_id = '5'
+2017/09/30 15:40:17--------update cat set cat_id='5',num='1' where cat_id='5'
+2017/09/30 15:40:19--------select catname,cat_id from cat
+2017/09/30 15:40:33--------select * from art ORDER by art_id
+2017/09/30 15:40:35--------select * from cat ORDER by cat_id
+2017/09/30 15:40:37--------select cat_id,num from cat where cat_id=4
+2017/09/30 15:40:39--------select * from cat where cat_id='4'
+2017/09/30 15:40:39--------select * from cat where cat_id='4'
+2017/09/30 15:40:39--------delete from cat where cat_id='4'
+2017/09/30 15:40:39--------select * from art where cat_id=4
+2017/09/30 15:40:39--------select * from art where cat_id=4
+2017/09/30 15:40:39--------delete from art where cat_id='4'
+2017/09/30 15:40:39--------delete from tag where art_id=8
+2017/09/30 15:40:40--------select * from cat ORDER by cat_id
+2017/09/30 15:40:49--------select cat_id,num from cat where cat_id=5
+2017/09/30 15:40:51--------select * from cat where cat_id='5'
+2017/09/30 15:40:51--------select * from cat where cat_id='5'
+2017/09/30 15:40:51--------delete from cat where cat_id='5'
+2017/09/30 15:40:51--------select * from art where cat_id=5
+2017/09/30 15:40:51--------select * from art where cat_id=5
+2017/09/30 15:40:51--------delete from art where cat_id='5'
+2017/09/30 15:40:51--------delete from tag where art_id=9
+2017/09/30 15:40:52--------select * from cat ORDER by cat_id
+2017/09/30 15:41:16--------select * from cat where catname='计算机'
+2017/09/30 15:41:16--------select * from cat where catname='计算机'
+2017/09/30 15:41:16--------insert into cat (catname) values ('计算机')
+2017/09/30 15:41:21--------select catname,cat_id from cat
+2017/09/30 15:41:27--------select * from art where title='test1'
+2017/09/30 15:41:35--------select count(*) from cat where cat_id='6'
+2017/09/30 15:41:35--------select title from art where title='test1'
+2017/09/30 15:41:35--------insert into art (title,cat_id,content,tags,pubtime,pic) values ('test1','6','1123','555,666,777','1506757295','C:\phpDome\blog/upload/2017/09/30/1506757295.jpg')
+2017/09/30 15:41:35--------select art_id from art where pubtime= '1506757295'
+2017/09/30 15:41:35--------insert into tag (art_id,tag) values ('10','555'),('10','666'),('10','777')
+2017/09/30 15:41:35--------select num from cat where cat_id = '6'
+2017/09/30 15:41:35--------update cat set cat_id='6',num='1' where cat_id='6'
+2017/09/30 15:41:37--------select catname,cat_id from cat
+2017/09/30 15:41:39--------select * from art ORDER by art_id
+2017/09/30 15:41:45--------select * from cat ORDER by cat_id
+2017/09/30 15:41:51--------select * from art ORDER by art_id
+2017/09/30 15:41:53--------select * from cat ORDER by cat_id

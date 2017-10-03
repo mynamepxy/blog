@@ -1,0 +1,359 @@
+2017/09/24 10:38:10--------select catname,cat_id from cat
+2017/09/24 11:05:32--------select * from cat where catname='hhhhjjh'
+2017/09/24 11:05:38--------insert into cat (catname) values ('hhhhjjh')
+2017/09/24 13:14:57--------insert into art (title,cat_id,content,tags) values ('gg','149','ggg','ggg')
+2017/09/24 13:14:57--------insert into art (title,cat_id,content,tags) values ('gg','149','ggg','ggg')
+2017/09/24 13:14:58--------select num from cat where cat_id = '149'
+2017/09/24 13:14:58--------select num from cat where cat_id = '149'
+2017/09/24 13:14:58--------select num from cat where cat_id = '149'
+2017/09/24 13:14:58--------select num from cat where cat_id = '149'
+2017/09/24 13:14:58--------update cat set cat_id='149',num='1' where cat_id='149'
+2017/09/24 13:14:58--------update cat set cat_id='149',num='1' where cat_id='149'
+2017/09/24 13:14:58--------update cat set cat_id='149',num='1' where cat_id='149'
+2017/09/24 13:14:58--------update cat set cat_id='149',num='1' where cat_id='149'
+2017/09/24 13:15:00--------select catname,cat_id from cat
+2017/09/24 13:19:06--------select catname,cat_id from cat
+2017/09/24 13:19:13--------insert into art (title,cat_id,content,tags) values ('yy','150','yyy','yyy')
+2017/09/24 13:19:13--------select num from cat where cat_id = '150'
+2017/09/24 13:19:13--------update cat set cat_id='150',num='1' where cat_id='150'
+2017/09/24 13:19:17--------insert into art (title,cat_id,content,tags) values ('yy','150','yyy','yyy')
+2017/09/24 13:19:17--------select num from cat where cat_id = '150'
+2017/09/24 13:19:17--------update cat set cat_id='150',num='2' where cat_id='150'
+2017/09/24 13:19:18--------insert into art (title,cat_id,content,tags) values ('yy','150','yyy','yyy')
+2017/09/24 13:19:18--------select num from cat where cat_id = '150'
+2017/09/24 13:19:18--------update cat set cat_id='150',num='3' where cat_id='150'
+2017/09/24 13:23:54--------select catname,cat_id from cat
+2017/09/24 13:24:02--------insert into art (title,cat_id,content,tags) values ('jj','150','jj','jj')
+2017/09/24 13:24:02--------select num from cat where cat_id = '150'
+2017/09/24 13:24:02--------update cat set cat_id='150',num='4' where cat_id='150'
+2017/09/24 13:24:21--------select catname,cat_id from cat
+2017/09/24 13:24:29--------insert into art (title,cat_id,content,tags) values ('hhh','150','hhh','hhh')
+2017/09/24 13:24:29--------select num from cat where cat_id = '150'
+2017/09/24 13:24:29--------update cat set cat_id='150',num='5' where cat_id='150'
+2017/09/24 13:24:45--------select catname,cat_id from cat
+2017/09/24 13:25:11--------select catname,cat_id from cat
+2017/09/24 13:25:16--------insert into art (title,cat_id,content,tags) values ('hh','150','hh','hhh')
+2017/09/24 13:25:16--------select num from cat where cat_id = '150'
+2017/09/24 13:25:16--------update cat set cat_id='150',num='6' where cat_id='150'
+2017/09/24 13:25:21--------select catname,cat_id from cat
+2017/09/24 13:25:34--------select catname,cat_id from cat
+2017/09/24 13:25:35--------select catname,cat_id from cat
+2017/09/24 13:25:36--------select catname,cat_id from cat
+2017/09/24 13:25:36--------select catname,cat_id from cat
+2017/09/24 13:25:36--------select catname,cat_id from cat
+2017/09/24 13:26:10--------insert into art (title,cat_id,content,tags) values ('kk','150','kk','kk')
+2017/09/24 13:26:10--------select num from cat where cat_id = '150'
+2017/09/24 13:26:10--------update cat set cat_id='150',num='7' where cat_id='150'
+2017/09/24 13:27:01--------select catname,cat_id from cat
+2017/09/24 13:27:05--------insert into art (title,cat_id,content,tags) values ('kk','150','kk','kkk')
+2017/09/24 13:27:05--------select num from cat where cat_id = '150'
+2017/09/24 13:27:05--------update cat set cat_id='150',num='8' where cat_id='150'
+2017/09/24 13:28:57--------select catname,cat_id from cat
+2017/09/24 13:29:02--------insert into art (title,cat_id,content,tags) values ('ii','150','iii','iii')
+2017/09/24 13:29:02--------select num from cat where cat_id = '150'
+2017/09/24 13:29:02--------update cat set cat_id='150',num='9' where cat_id='150'
+2017/09/24 13:29:27--------insert into art (title,cat_id,content,tags) values ('ii','150','iii','iii')
+2017/09/24 13:29:27--------select num from cat where cat_id = '150'
+2017/09/24 13:29:27--------update cat set cat_id='150',num='10' where cat_id='150'
+2017/09/24 13:29:29--------select catname,cat_id from cat
+2017/09/24 13:29:30--------select catname,cat_id from cat
+2017/09/24 13:29:34--------insert into art (title,cat_id,content,tags) values ('88','150','88','888')
+2017/09/24 13:29:34--------select num from cat where cat_id = '150'
+2017/09/24 13:29:34--------update cat set cat_id='150',num='11' where cat_id='150'
+2017/09/24 13:30:03--------select catname,cat_id from cat
+2017/09/24 13:30:04--------select catname,cat_id from cat
+2017/09/24 13:30:07--------insert into art (title,cat_id,content,tags) values ('99','150','999','99')
+2017/09/24 13:30:07--------select num from cat where cat_id = '150'
+2017/09/24 13:30:07--------update cat set cat_id='150',num='12' where cat_id='150'
+2017/09/24 13:30:21--------select catname,cat_id from cat
+2017/09/24 13:30:22--------select catname,cat_id from cat
+2017/09/24 13:30:27--------insert into art (title,cat_id,content,tags) values ('88','150','888','888')
+2017/09/24 13:30:27--------select num from cat where cat_id = '150'
+2017/09/24 13:30:27--------update cat set cat_id='150',num='13' where cat_id='150'
+2017/09/24 13:39:10--------select catname,cat_id from cat
+2017/09/24 13:39:10--------select catname,cat_id from cat
+2017/09/24 13:39:15--------insert into art (title,cat_id,content,tags) values ('uu','150','uu','uu')
+2017/09/24 13:39:15--------select num from cat where cat_id = '150'
+2017/09/24 13:39:15--------update cat set cat_id='150',num='14' where cat_id='150'
+2017/09/24 13:39:28--------insert into art (title,cat_id,content,tags) values ('u','150','uuu','uuu')
+2017/09/24 13:39:28--------select num from cat where cat_id = '150'
+2017/09/24 13:39:28--------update cat set cat_id='150',num='15' where cat_id='150'
+2017/09/24 13:40:14--------select catname,cat_id from cat
+2017/09/24 13:40:15--------select catname,cat_id from cat
+2017/09/24 13:40:19--------insert into art (title,cat_id,content,tags) values (']]','150',']]',']]')
+2017/09/24 13:40:19--------select num from cat where cat_id = '150'
+2017/09/24 13:40:19--------update cat set cat_id='150',num='16' where cat_id='150'
+2017/09/24 13:40:25--------insert into art (title,cat_id,content,tags) values (']]','150',']]',']]')
+2017/09/24 13:40:25--------select num from cat where cat_id = '150'
+2017/09/24 13:40:25--------update cat set cat_id='150',num='17' where cat_id='150'
+2017/09/24 13:41:50--------select catname,cat_id from cat
+2017/09/24 13:41:56--------insert into art (title,cat_id,content,tags) values ('o','150','o','o')
+2017/09/24 13:41:57--------select num from cat where cat_id = '150'
+2017/09/24 13:41:57--------update cat set cat_id='150',num='18' where cat_id='150'
+2017/09/24 13:44:34--------select catname,cat_id from cat
+2017/09/24 13:44:35--------select catname,cat_id from cat
+2017/09/24 13:44:37--------insert into art (title,cat_id,content,tags) values ('','150','','')
+2017/09/24 13:44:37--------select num from cat where cat_id = '150'
+2017/09/24 13:44:37--------update cat set cat_id='150',num='19' where cat_id='150'
+2017/09/24 13:44:38--------select catname,cat_id from cat
+2017/09/24 13:44:41--------insert into art (title,cat_id,content,tags) values ('pp','150','pp','ppp')
+2017/09/24 13:44:42--------select num from cat where cat_id = '150'
+2017/09/24 13:44:42--------update cat set cat_id='150',num='20' where cat_id='150'
+2017/09/24 13:44:43--------select catname,cat_id from cat
+2017/09/24 13:45:59--------select catname,cat_id from cat
+2017/09/24 13:46:05--------insert into art (title,cat_id,content,tags) values ('pp','150','ppp','pppp')
+2017/09/24 13:46:05--------select num from cat where cat_id = '150'
+2017/09/24 13:46:05--------update cat set cat_id='150',num='21' where cat_id='150'
+2017/09/24 13:47:02--------insert into art (title,cat_id,content,tags) values ('pp','150','ppp','pppp')
+2017/09/24 13:47:02--------select num from cat where cat_id = '150'
+2017/09/24 13:47:02--------update cat set cat_id='150',num='22' where cat_id='150'
+2017/09/24 13:47:03--------select catname,cat_id from cat
+2017/09/24 13:48:37--------select * from cat where catname='j'
+2017/09/24 13:48:38--------select * from cat where catname='j'
+2017/09/24 13:48:38--------insert into cat (catname) values ('j')
+2017/09/24 13:49:12--------select * from cat where catname='999'
+2017/09/24 13:49:12--------select * from cat where catname='999'
+2017/09/24 13:49:12--------insert into cat (catname) values ('999')
+2017/09/24 13:51:07--------select * from cat where catname='hh'
+2017/09/24 13:51:12--------select * from cat where catname='hhg'
+2017/09/24 13:51:12--------select * from cat where catname='hhg'
+2017/09/24 13:51:12--------insert into cat (catname) values ('hhg')
+2017/09/24 13:51:53--------select * from cat where catname='p'
+2017/09/24 13:51:53--------select * from cat where catname='p'
+2017/09/24 13:51:53--------insert into cat (catname) values ('p')
+2017/09/24 13:52:11--------select * from cat where catname='o'
+2017/09/24 13:52:11--------select * from cat where catname='o'
+2017/09/24 13:52:11--------insert into cat (catname) values ('o')
+2017/09/24 13:52:54--------select * from cat where catname='777'
+2017/09/24 13:52:54--------select * from cat where catname='777'
+2017/09/24 13:52:54--------insert into cat (catname) values ('777')
+2017/09/24 13:59:47--------select * from cat where catname='计算机'
+2017/09/24 14:00:02--------select * from cat where catname='计算机'
+2017/09/24 14:00:02--------select * from cat where catname='计算机'
+2017/09/24 14:00:02--------insert into cat (catname) values ('计算机')
+2017/09/24 14:00:12--------select * from cat where catname='艺术'
+2017/09/24 14:00:12--------select * from cat where catname='艺术'
+2017/09/24 14:00:12--------insert into cat (catname) values ('艺术')
+2017/09/24 14:00:19--------select * from cat where catname='体育'
+2017/09/24 14:00:19--------select * from cat where catname='体育'
+2017/09/24 14:00:19--------insert into cat (catname) values ('体育')
+2017/09/24 14:00:54--------select * from cat ORDER by cat_id
+2017/09/24 14:00:58--------select cat_id,catname from cat where cat_id=159
+2017/09/24 14:00:58--------select cat_id,catname from cat where cat_id=159
+2017/09/24 14:01:07--------select cat_id,catname from cat where cat_id=159
+2017/09/24 14:01:07--------select cat_id,catname from cat where cat_id=159
+2017/09/24 14:01:07--------update cat set cat_id='159',catname='体育与电影' where cat_id='159'
+2017/09/24 14:01:08--------select * from cat ORDER by cat_id
+2017/09/24 14:01:19--------select * from cat ORDER by cat_id
+2017/09/24 14:02:06--------select catname,cat_id from cat
+2017/09/24 14:02:26--------insert into art (title,cat_id,content,tags,pubtime) values ('C','157','谷歌','分','1506232946')
+2017/09/24 14:02:26--------select num from cat where cat_id = '157'
+2017/09/24 14:02:26--------update cat set cat_id='157',num='1' where cat_id='157'
+2017/09/24 14:02:27--------select catname,cat_id from cat
+2017/09/24 14:02:37--------select catname,cat_id from cat
+2017/09/24 14:02:43--------select catname,cat_id from cat
+2017/09/24 14:05:19--------select catname,cat_id from cat
+2017/09/24 14:20:14--------insert into art (title,cat_id,content,tags,pubtime) values ('888','159','888','888','1506234013')
+2017/09/24 14:20:14--------select num from cat where cat_id = '159'
+2017/09/24 14:20:14--------update cat set cat_id='159',num='1' where cat_id='159'
+2017/09/24 14:20:19--------select catname,cat_id from cat
+2017/09/24 14:23:29--------select catname,cat_id from cat
+2017/09/24 14:24:19--------select catname,cat_id from cat
+2017/09/24 14:31:09--------select catname,cat_id from cat
+2017/09/24 16:15:10--------select * from cat where catname='tt'
+2017/09/24 16:15:10--------select * from cat where catname='tt'
+2017/09/24 16:15:11--------insert into cat (catname) values ('tt')
+2017/09/24 16:15:58--------select * from cat where catname='tttt'
+2017/09/24 16:15:58--------select * from cat where catname='tttt'
+2017/09/24 16:15:58--------insert into cat (catname) values ('tttt')
+2017/09/24 16:17:18--------select * from cat where catname='tttty'
+2017/09/24 16:17:18--------select * from cat where catname='tttty'
+2017/09/24 16:17:18--------insert into cat (catname) values ('tttty')
+2017/09/24 16:17:52--------select * from cat where catname='ttttyu'
+2017/09/24 16:17:52--------select * from cat where catname='ttttyu'
+2017/09/24 16:17:52--------insert into cat (catname) values ('ttttyu')
+2017/09/24 16:19:49--------select * from cat where catname='ttttyuy'
+2017/09/24 16:19:49--------select * from cat where catname='ttttyuy'
+2017/09/24 16:19:49--------insert into cat (catname) values ('ttttyuy')
+2017/09/24 16:20:20--------select * from cat where catname='ttttyuyy'
+2017/09/24 16:20:20--------select * from cat where catname='ttttyuyy'
+2017/09/24 16:20:20--------insert into cat (catname) values ('ttttyuyy')
+2017/09/24 16:21:02--------select * from cat where catname='ttttyuyyy'
+2017/09/24 16:21:02--------select * from cat where catname='ttttyuyyy'
+2017/09/24 16:21:02--------insert into cat (catname) values ('ttttyuyyy')
+2017/09/24 16:22:30--------select * from cat where catname='ttttyuyyyyy'
+2017/09/24 16:22:30--------select * from cat where catname='ttttyuyyyyy'
+2017/09/24 16:22:30--------insert into cat (catname) values ('ttttyuyyyyy')
+2017/09/24 16:23:13--------select * from cat where catname='ttttyuyyyyyu'
+2017/09/24 16:23:13--------select * from cat where catname='ttttyuyyyyyu'
+2017/09/24 16:23:13--------insert into cat (catname) values ('ttttyuyyyyyu')
+2017/09/24 16:24:26--------select * from cat where catname='ttttyuyyyyyu'
+2017/09/24 16:24:28--------select * from cat where catname='ttttyuyyyyyu0'
+2017/09/24 16:24:28--------select * from cat where catname='ttttyuyyyyyu0'
+2017/09/24 16:24:28--------insert into cat (catname) values ('ttttyuyyyyyu0')
+2017/09/24 16:25:36--------select * from cat where catname='ttttyuyyyyyu0j'
+2017/09/24 16:25:36--------select * from cat where catname='ttttyuyyyyyu0j'
+2017/09/24 16:25:36--------insert into cat (catname) values ('ttttyuyyyyyu0j')
+2017/09/24 16:26:52--------select * from cat where catname='ttttyuyyyyyu0jo'
+2017/09/24 16:26:52--------select * from cat where catname='ttttyuyyyyyu0jo'
+2017/09/24 16:26:52--------insert into cat (catname) values ('ttttyuyyyyyu0jo')
+2017/09/24 16:27:11--------select * from cat where catname='ttttyuyyyyyu0joh'
+2017/09/24 16:27:11--------select * from cat where catname='ttttyuyyyyyu0joh'
+2017/09/24 16:27:11--------insert into cat (catname) values ('ttttyuyyyyyu0joh')
+2017/09/24 16:28:45--------select * from cat where catname='ttttyuyyyyyu0johu'
+2017/09/24 16:28:45--------select * from cat where catname='ttttyuyyyyyu0johu'
+2017/09/24 16:28:45--------insert into cat (catname) values ('ttttyuyyyyyu0johu')
+2017/09/24 16:29:24--------select * from cat where catname='ttttyuyyyyyu0johuu'
+2017/09/24 16:29:24--------select * from cat where catname='ttttyuyyyyyu0johuu'
+2017/09/24 16:29:24--------insert into cat (catname) values ('ttttyuyyyyyu0johuu')
+2017/09/24 16:29:37--------select * from cat where catname='yy'
+2017/09/24 16:29:38--------select * from cat where catname='yy'
+2017/09/24 16:29:38--------insert into cat (catname) values ('yy')
+2017/09/24 16:29:49--------select * from cat where catname='yyyy'
+2017/09/24 16:29:52--------select * from cat where catname='yyyyhh'
+2017/09/24 16:29:52--------select * from cat where catname='yyyyhh'
+2017/09/24 16:29:52--------insert into cat (catname) values ('yyyyhh')
+2017/09/24 16:29:57--------select * from cat where catname='hgr'
+2017/09/24 16:29:57--------select * from cat where catname='hgr'
+2017/09/24 16:29:57--------insert into cat (catname) values ('hgr')
+2017/09/24 16:30:01--------select * from cat where catname='tt'
+2017/09/24 16:30:05--------select * from cat where catname='tttt'
+2017/09/24 16:30:09--------select * from cat where catname='tttth'
+2017/09/24 16:30:09--------select * from cat where catname='tttth'
+2017/09/24 16:30:09--------insert into cat (catname) values ('tttth')
+2017/09/24 16:30:21--------select * from cat where catname='tthff'
+2017/09/24 16:30:21--------select * from cat where catname='tthff'
+2017/09/24 16:30:21--------insert into cat (catname) values ('tthff')
+2017/09/24 16:33:00--------select * from cat where catname='yyyhf'
+2017/09/24 16:33:01--------select * from cat where catname='yyyhf'
+2017/09/24 16:33:01--------insert into cat (catname) values ('yyyhf')
+2017/09/24 16:33:47--------select * from cat where catname='yyyhf'
+2017/09/24 16:35:34--------select * from cat where catname='yyyhfh'
+2017/09/24 16:35:34--------select * from cat where catname='yyyhfh'
+2017/09/24 16:35:34--------insert into cat (catname) values ('yyyhfh')
+2017/09/24 16:36:07--------select * from cat where catname='yyyhfhh'
+2017/09/24 16:36:07--------select * from cat where catname='yyyhfhh'
+2017/09/24 16:36:07--------insert into cat (catname) values ('yyyhfhh')
+2017/09/24 16:36:40--------select * from cat where catname='yyyhfhhy'
+2017/09/24 16:36:41--------select * from cat where catname='yyyhfhhy'
+2017/09/24 16:36:41--------insert into cat (catname) values ('yyyhfhhy')
+2017/09/24 16:37:24--------select * from cat where catname='yyyhfhhyy'
+2017/09/24 16:37:24--------select * from cat where catname='yyyhfhhyy'
+2017/09/24 16:37:24--------insert into cat (catname) values ('yyyhfhhyy')
+2017/09/24 16:38:36--------select * from cat where catname='yyyhfhhyyy'
+2017/09/24 16:38:36--------select * from cat where catname='yyyhfhhyyy'
+2017/09/24 16:38:36--------insert into cat (catname) values ('yyyhfhhyyy')
+2017/09/24 16:38:44--------select * from cat where catname='uu'
+2017/09/24 16:38:44--------select * from cat where catname='uu'
+2017/09/24 16:38:44--------insert into cat (catname) values ('uu')
+2017/09/24 16:39:36--------select * from cat where catname='u'
+2017/09/24 16:39:37--------select * from cat where catname='u'
+2017/09/24 16:39:37--------insert into cat (catname) values ('u')
+2017/09/24 16:39:40--------select * from cat where catname='uu'
+2017/09/24 16:39:44--------select * from cat where catname='uuuu'
+2017/09/24 16:39:44--------select * from cat where catname='uuuu'
+2017/09/24 16:39:44--------insert into cat (catname) values ('uuuu')
+2017/09/24 21:45:45--------select catname,cat_id from cat
+2017/09/24 21:45:54--------select * from cat where catname='t'
+2017/09/24 21:46:51--------select catname,cat_id from cat
+2017/09/24 21:46:55--------select * from cat where catname='ttt'
+2017/09/24 21:48:08--------select catname,cat_id from cat
+2017/09/24 21:48:13--------select * from cat where catname='ttty'
+2017/09/24 21:48:23--------select * from cat where catname='tttyyy'
+2017/09/24 21:48:44--------select catname,cat_id from cat
+2017/09/24 21:49:09--------select catname,cat_id from cat
+2017/09/24 21:49:13--------select * from cat where catname='uu'
+2017/09/24 21:49:17--------select * from cat where catname='uuu'
+2017/09/24 21:49:46--------select * from cat where catname='uuu'
+2017/09/24 21:52:14--------select catname,cat_id from cat
+2017/09/24 21:52:17--------select * from cat where catname='oo'
+2017/09/24 21:52:19--------insert into art (title,cat_id,content,tags,pubtime) values ('oo','184','ooo','oo','1506261139')
+2017/09/24 21:52:19--------select num from cat where cat_id = '184'
+2017/09/24 21:52:19--------update cat set cat_id='184',num='1' where cat_id='184'
+2017/09/24 21:52:21--------select catname,cat_id from cat
+2017/09/24 21:52:27--------select * from cat where catname='888'
+2017/09/24 21:52:31--------select * from cat where catname='888'
+2017/09/24 21:52:59--------select * from cat where catname='888'
+2017/09/24 21:53:03--------insert into art (title,cat_id,content,tags,pubtime) values ('888','184','p','','1506261183')
+2017/09/24 21:53:03--------select num from cat where cat_id = '184'
+2017/09/24 21:53:03--------update cat set cat_id='184',num='2' where cat_id='184'
+2017/09/24 21:53:05--------select catname,cat_id from cat
+2017/09/24 21:53:09--------select * from cat where catname='888'
+2017/09/24 21:53:43--------select * from cat where catname='tttyyy'
+2017/09/24 21:54:03--------select * from cat where catname='888'
+2017/09/24 21:54:32--------select catname,cat_id from cat
+2017/09/24 21:54:36--------select * from cat where catname=''
+2017/09/24 21:54:44--------select * from cat where catname=''
+2017/09/24 21:56:07--------select catname,cat_id from cat
+2017/09/24 21:56:11--------select * from cat where catname=''
+2017/09/24 21:57:07--------select catname,cat_id from cat
+2017/09/24 21:57:13--------select * from cat where catname=''
+2017/09/24 21:58:17--------select catname,cat_id from cat
+2017/09/24 21:58:19--------insert into art (title,cat_id,content,tags,pubtime) values ('888','184','yyytty','ttt','1506261499')
+2017/09/24 21:58:19--------select num from cat where cat_id = '184'
+2017/09/24 21:58:19--------update cat set cat_id='184',num='3' where cat_id='184'
+2017/09/24 21:58:22--------select catname,cat_id from cat
+2017/09/24 21:58:26--------select * from cat where catname=''
+2017/09/24 21:59:03--------select catname,cat_id from cat
+2017/09/24 21:59:27--------select catname,cat_id from cat
+2017/09/24 21:59:32--------错误查询:select * from art where artname='888'错误描述:Unknown column 'artname' in 'where clause'
+2017/09/24 22:00:24--------select catname,cat_id from cat
+2017/09/24 22:00:29--------select * from art where title='888'
+2017/09/24 22:00:48--------select catname,cat_id from cat
+2017/09/24 22:00:49--------select catname,cat_id from cat
+2017/09/24 22:00:52--------select * from art where title='888'
+2017/09/24 22:01:50--------select catname,cat_id from cat
+2017/09/24 22:01:56--------select * from art where title='8'
+2017/09/24 22:02:01--------select * from art where title='888'
+2017/09/24 22:02:08--------select * from art where title='8883'
+2017/09/24 22:02:19--------insert into art (title,cat_id,content,tags,pubtime) values ('8883','184','333','','1506261739')
+2017/09/24 22:02:19--------select num from cat where cat_id = '184'
+2017/09/24 22:02:19--------update cat set cat_id='184',num='4' where cat_id='184'
+2017/09/24 22:02:20--------select catname,cat_id from cat
+2017/09/24 22:02:30--------select * from art where title='8  77'
+2017/09/24 22:02:32--------insert into art (title,cat_id,content,tags,pubtime) values ('8  77','184','7','','1506261752')
+2017/09/24 22:02:32--------select num from cat where cat_id = '184'
+2017/09/24 22:02:32--------update cat set cat_id='184',num='5' where cat_id='184'
+2017/09/24 22:02:34--------select catname,cat_id from cat
+2017/09/24 22:02:39--------select * from art where title='tt'
+2017/09/24 22:02:44--------insert into art (title,cat_id,content,tags,pubtime) values ('tt','184','t','tt','1506261764')
+2017/09/24 22:02:44--------select num from cat where cat_id = '184'
+2017/09/24 22:02:44--------update cat set cat_id='184',num='6' where cat_id='184'
+2017/09/24 22:02:46--------select catname,cat_id from cat
+2017/09/24 22:05:17--------insert into art (title,cat_id,content,tags,pubtime) values ('888','184','iii','','1506261917')
+2017/09/24 22:05:17--------select num from cat where cat_id = '184'
+2017/09/24 22:05:17--------update cat set cat_id='184',num='7' where cat_id='184'
+2017/09/24 22:05:31--------select catname,cat_id from cat
+2017/09/24 22:07:10--------select * from art where title='u'
+2017/09/24 22:07:10--------insert into art (title,cat_id,content,tags,pubtime) values ('u','184','u','','1506262030')
+2017/09/24 22:07:10--------select num from cat where cat_id = '184'
+2017/09/24 22:07:10--------update cat set cat_id='184',num='8' where cat_id='184'
+2017/09/24 22:07:54--------select catname,cat_id from cat
+2017/09/24 22:26:44--------select * from art
+2017/09/24 22:27:34--------select * from art
+2017/09/24 22:28:55--------select * from art
+2017/09/24 22:29:32--------select * from art
+2017/09/24 22:30:02--------select * from art
+2017/09/24 22:32:26--------select * from art
+2017/09/24 23:44:13--------select * from art
+2017/09/24 23:45:13--------select * from art
+2017/09/24 23:45:21--------select catname,cat_id from cat
+2017/09/24 23:45:35--------select catname,cat_id from cat
+2017/09/24 23:45:45--------select * from art
+2017/09/24 23:46:00--------select catname,cat_id from cat
+2017/09/24 23:48:55--------select * from art
+2017/09/24 23:49:24--------select * from art
+2017/09/24 23:49:46--------select * from art
+2017/09/24 23:51:00--------select * from art
+2017/09/24 23:52:12--------select * from art
+2017/09/24 23:58:59--------select * from art
+2017/09/24 23:59:06--------select catname,cat_id from cat
+2017/09/24 23:59:21--------select * from cat where catname='计算机'
+2017/09/24 23:59:21--------select * from cat where catname='计算机'
+2017/09/24 23:59:21--------insert into cat (catname) values ('计算机')
+2017/09/24 23:59:29--------select * from cat where catname='艺术'
+2017/09/24 23:59:29--------select * from cat where catname='艺术'
+2017/09/24 23:59:30--------insert into cat (catname) values ('艺术')
+2017/09/24 23:59:41--------select * from cat where catname='体育与电影'
+2017/09/24 23:59:41--------select * from cat where catname='体育与电影'
+2017/09/24 23:59:41--------insert into cat (catname) values ('体育与电影')

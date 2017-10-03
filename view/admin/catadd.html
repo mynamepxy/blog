@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/adm.css">
+</head>
+<body>
+    <header>
+        <h1>Blog后台管理界面</h1>
+    </header>
+    <div id="main">
+        <div id="lside">
+            <aside>
+                <h4>栏目管理</h4>
+                <ul>
+                    <li><a href="./catlist1.php">栏目列表</a></li>
+                    <li><a href="./catadd1.php">添加栏目</a></li>
+                </ul>
+            </aside>
+            <aside>
+                <h4>文章管理</h4>
+                <ul>
+                    <li><a href="./artlist1.php">文章列表</a></li>
+                    <li><a href="./artadd1.php">发布文章</a></li>
+                </ul>
+            </aside>
+            <aside>
+                <h4>个人中心</h4>
+                <ul>
+                    <li><a href="">修改密码</a></li>
+                    <li><a href="">退出登陆</a></li>
+                </ul>
+            </aside>
+        </div>
+        <div id="rside">
+            <form action="" method="post">
+                <div class="form-group">
+                    <label>栏目名称:</label>
+                    <p>
+                        <input type="text" name="catname">
+                    </p>
+                </div>
+                <div class="form-group">
+                    <label>&nbsp;</label>
+                    <p>
+                        <button type="submit" id="sub">提交</button>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        Copyright &copy; 2015 · GeneratePress · WordPress
+    </footer>
+    <script>
+        var catname = document.getElementsByTagName('input')[0];
+        var sub = document.getElementById('sub');
+
+        sub.onclick = function (event) {
+
+            var catname1 = catname.value;
+
+            if(catname1.trim()==''){
+                alert('栏目名不能为空');
+                var event = event || window.event;
+                event.preventDefault();
+                window.event.returnValue = false;
+            }
+
+       }
+       catname.onblur = function () {
+           var aj = new XMLHttpRequest();
+           aj.onreadystatechange = function () {
+               if(aj.readyState==4){
+                   var info = aj.responseText;
+                   if(info!==''){
+                       alert(info);
+                   }
+               }
+           }
+           aj.open('get','./ajax.php?catname='+catname.value);
+           aj.send();
+       }
+    </script>
+</body>
+</html>

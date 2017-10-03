@@ -1,0 +1,12 @@
+-----------------------------------------
+2017/09/24 13:59:48
+select count(*) from cat where catname='计算机'
+Access denied for user 'root'@'localhost' (using password: NO)
+-----------------------------------------
+
+-----------------------------------------
+2017/09/24 13:59:48
+insert into cat (catname) values ('计算机')
+Access denied for user 'root'@'localhost' (using password: NO)
+-----------------------------------------
+

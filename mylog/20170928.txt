@@ -1,0 +1,632 @@
+2017/09/28 15:36:12--------select catname,cat_id from cat
+2017/09/28 15:36:12--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id
+2017/09/28 15:36:17--------select catname,cat_id from cat
+2017/09/28 15:36:17--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id
+2017/09/28 15:36:17--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.cat_id='1'
+2017/09/28 15:36:18--------select catname,cat_id from cat
+2017/09/28 15:36:18--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id
+2017/09/28 15:36:18--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.cat_id='2'
+2017/09/28 15:36:19--------select catname,cat_id from cat
+2017/09/28 15:36:19--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id
+2017/09/28 15:36:19--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.cat_id='3'
+2017/09/28 15:36:21--------select catname,cat_id from cat
+2017/09/28 15:36:21--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id
+2017/09/28 15:36:21--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.cat_id='3'
+2017/09/28 15:36:23--------select catname,cat_id from cat
+2017/09/28 15:36:23--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id
+2017/09/28 15:36:23--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.cat_id='1'
+2017/09/28 15:36:24--------select catname,cat_id from cat
+2017/09/28 15:36:24--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id
+2017/09/28 15:36:24--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.cat_id='2'
+2017/09/28 15:36:26--------select catname,cat_id from cat
+2017/09/28 15:36:26--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id
+2017/09/28 15:36:26--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.cat_id='3'
+2017/09/28 15:40:52--------select catname,cat_id from cat
+2017/09/28 15:41:06--------select * from art where title='怎么办'
+2017/09/28 15:41:13--------select * from art where title='怎么办'
+2017/09/28 15:42:04--------错误查询:insert into art (title,cat_id,content,tags,pubtime,pic) values ('怎么办','2','go or study','ccc','1506584523','C:\phpDome\blog/upload/2017/09/28/1506584523.jpg')错误描述:Data too long for column 'pic' at row 1
+2017/09/28 15:44:13--------insert into art (title,cat_id,content,tags,pubtime,pic) values ('怎么办','2','go or study','ccc','1506584653','C:\phpDome\blog/upload/2017/09/28/1506584653.jpg')
+2017/09/28 15:44:13--------select num from cat where cat_id = '2'
+2017/09/28 15:44:13--------update cat set cat_id='2',num='2' where cat_id='2'
+2017/09/28 15:44:15--------select catname,cat_id from cat
+2017/09/28 15:45:35--------select catname,cat_id from cat
+2017/09/28 15:45:35--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id
+2017/09/28 15:45:35--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.cat_id='3'
+2017/09/28 15:45:36--------select catname,cat_id from cat
+2017/09/28 15:45:36--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id
+2017/09/28 15:45:36--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.cat_id='3'
+2017/09/28 15:45:40--------select catname,cat_id from cat
+2017/09/28 15:45:40--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id
+2017/09/28 15:47:24--------select catname,cat_id from cat
+2017/09/28 15:47:24--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id
+2017/09/28 15:47:26--------select catname,cat_id from cat
+2017/09/28 15:47:26--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id
+2017/09/28 15:47:28--------select catname,cat_id from cat
+2017/09/28 15:47:28--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id
+2017/09/28 15:47:28--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.cat_id='1'
+2017/09/28 15:47:28--------select catname,cat_id from cat
+2017/09/28 15:47:28--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id
+2017/09/28 15:47:28--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.cat_id='2'
+2017/09/28 15:47:30--------select catname,cat_id from cat
+2017/09/28 15:47:30--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id
+2017/09/28 15:47:30--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.cat_id='3'
+2017/09/28 15:47:31--------select catname,cat_id from cat
+2017/09/28 15:47:32--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id
+2017/09/28 15:54:33--------select catname,cat_id from cat
+2017/09/28 15:54:33--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id
+2017/09/28 15:56:14--------select catname,cat_id from cat
+2017/09/28 15:56:14--------错误查询:select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id by ordey art.art_id错误描述:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'by ordey art.art_id' at line 1
+2017/09/28 15:56:34--------select catname,cat_id from cat
+2017/09/28 15:56:34--------错误查询:select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id ordey by art.art_id错误描述:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ordey by art.art_id' at line 1
+2017/09/28 15:56:35--------select catname,cat_id from cat
+2017/09/28 15:56:35--------错误查询:select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id ordey by art.art_id错误描述:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ordey by art.art_id' at line 1
+2017/09/28 15:57:20--------select catname,cat_id from cat
+2017/09/28 15:57:20--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 16:00:46--------select catname,cat_id from cat
+2017/09/28 16:00:46--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 16:06:04--------select catname,cat_id from cat
+2017/09/28 16:28:26--------select catname,cat_id from cat
+2017/09/28 16:28:26--------select count(catname) from cat
+2017/09/28 16:28:56--------select catname,cat_id from cat
+2017/09/28 16:28:56--------select count(catname) from cat
+2017/09/28 16:32:02--------select catname,cat_id from cat
+2017/09/28 16:32:02--------select count(catname) from cat
+2017/09/28 16:32:40--------select catname,cat_id from cat
+2017/09/28 16:32:40--------select count(catname) from cat
+2017/09/28 16:39:47--------select catname,cat_id from cat
+2017/09/28 16:39:47--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 16:39:48--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 16:39:52--------select catname,cat_id from cat
+2017/09/28 16:39:52--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 16:39:52--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.cat_id='1'
+2017/09/28 16:40:12--------select catname,cat_id from cat
+2017/09/28 16:40:12--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 16:40:16--------select catname,cat_id from cat
+2017/09/28 16:40:16--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 16:40:16--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 16:40:20--------select catname,cat_id from cat
+2017/09/28 16:40:20--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 16:40:20--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.cat_id='1'
+2017/09/28 16:42:54--------select catname,cat_id from cat
+2017/09/28 16:42:54--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 16:42:57--------select catname,cat_id from cat
+2017/09/28 16:42:57--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 16:42:57--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.cat_id='1'
+2017/09/28 16:43:51--------select catname,cat_id from cat
+2017/09/28 16:43:51--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 16:43:51--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.cat_id='1'
+2017/09/28 16:43:53--------select catname,cat_id from cat
+2017/09/28 16:43:53--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 16:43:53--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.cat_id='1'
+2017/09/28 16:43:54--------select catname,cat_id from cat
+2017/09/28 16:43:54--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 16:43:54--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.cat_id='2'
+2017/09/28 16:43:56--------select catname,cat_id from cat
+2017/09/28 16:43:56--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 16:43:56--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.cat_id='3'
+2017/09/28 16:43:57--------select catname,cat_id from cat
+2017/09/28 16:43:57--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 16:44:03--------select catname,cat_id from cat
+2017/09/28 16:44:03--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 16:44:03--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 16:44:23--------select catname,cat_id from cat
+2017/09/28 16:44:23--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='jj'
+2017/09/28 16:44:23--------select catname,cat_id from cat
+2017/09/28 16:44:23--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 16:44:28--------select catname,cat_id from cat
+2017/09/28 16:44:28--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='8'
+2017/09/28 16:44:28--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='8'
+2017/09/28 16:44:34--------select catname,cat_id from cat
+2017/09/28 16:44:34--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='9999'
+2017/09/28 16:45:01--------select catname,cat_id from cat
+2017/09/28 16:45:01--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='9999'
+2017/09/28 16:45:01--------select catname,cat_id from cat
+2017/09/28 16:45:01--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 16:45:43--------select catname,cat_id from cat
+2017/09/28 16:45:43--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 16:45:43--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 16:49:22--------select catname,cat_id from cat
+2017/09/28 16:49:22--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 16:49:22--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 16:50:02--------select catname,cat_id from cat
+2017/09/28 16:50:02--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 16:50:02--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 16:51:17--------select catname,cat_id from cat
+2017/09/28 16:51:17--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 16:51:17--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 16:51:43--------select catname,cat_id from cat
+2017/09/28 16:51:43--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 16:51:43--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 16:51:48--------select catname,cat_id from cat
+2017/09/28 16:51:48--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 16:51:50--------select catname,cat_id from cat
+2017/09/28 16:51:50--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 16:51:50--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 16:52:03--------select catname,cat_id from cat
+2017/09/28 16:52:03--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 16:52:03--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 16:52:11--------select catname,cat_id from cat
+2017/09/28 16:52:11--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 16:52:13--------select catname,cat_id from cat
+2017/09/28 16:52:13--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 16:52:13--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.cat_id='1'
+2017/09/28 16:52:16--------select catname,cat_id from cat
+2017/09/28 16:52:16--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 16:52:16--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 16:52:21--------select catname,cat_id from cat
+2017/09/28 16:52:21--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 16:52:22--------select catname,cat_id from cat
+2017/09/28 16:52:22--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 16:52:22--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:30:52--------select catname,cat_id from cat
+2017/09/28 19:30:52--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:30:52--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:31:17--------select catname,cat_id from cat
+2017/09/28 19:31:17--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:31:17--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:31:34--------select catname,cat_id from cat
+2017/09/28 19:31:34--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:31:34--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:32:04--------select catname,cat_id from cat
+2017/09/28 19:32:04--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:32:04--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:32:26--------select catname,cat_id from cat
+2017/09/28 19:32:26--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:32:26--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:33:01--------select catname,cat_id from cat
+2017/09/28 19:33:01--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:33:01--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:33:23--------select catname,cat_id from cat
+2017/09/28 19:33:23--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:33:23--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:33:51--------select catname,cat_id from cat
+2017/09/28 19:33:51--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:33:51--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:37:06--------select catname,cat_id from cat
+2017/09/28 19:37:06--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:37:06--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:37:38--------select catname,cat_id from cat
+2017/09/28 19:37:38--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:37:38--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:38:38--------select catname,cat_id from cat
+2017/09/28 19:38:38--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:38:38--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:38:40--------select catname,cat_id from cat
+2017/09/28 19:38:40--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:38:40--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:38:47--------select catname,cat_id from cat
+2017/09/28 19:38:47--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:38:47--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:38:53--------select catname,cat_id from cat
+2017/09/28 19:38:53--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:38:53--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:39:25--------select catname,cat_id from cat
+2017/09/28 19:39:25--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:39:25--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:40:39--------select catname,cat_id from cat
+2017/09/28 19:40:39--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:40:39--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:41:34--------select catname,cat_id from cat
+2017/09/28 19:41:34--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:41:34--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:41:37--------select catname,cat_id from cat
+2017/09/28 19:41:37--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:41:37--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:41:39--------select catname,cat_id from cat
+2017/09/28 19:41:39--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:41:39--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:42:00--------select catname,cat_id from cat
+2017/09/28 19:42:00--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:42:00--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:49:06--------select catname,cat_id from cat
+2017/09/28 19:49:06--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:49:06--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:49:21--------select catname,cat_id from cat
+2017/09/28 19:49:21--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:49:21--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:49:21--------insert into comment (nick,email,content,pubtime,art_id) values ('','ppp','','1506599361','6')
+2017/09/28 19:51:10--------select catname,cat_id from cat
+2017/09/28 19:51:10--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:51:10--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:51:11--------insert into comment (nick,email,content,pubtime,art_id) values ('','ppp','','1506599470','6')
+2017/09/28 19:51:18--------select catname,cat_id from cat
+2017/09/28 19:51:18--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:51:18--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:51:18--------insert into comment (nick,email,content,pubtime,art_id) values ('','','','1506599478','6')
+2017/09/28 19:51:34--------select catname,cat_id from cat
+2017/09/28 19:51:34--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:51:34--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:51:34--------insert into comment (nick,email,content,pubtime,art_id) values ('','rrr','','1506599494','6')
+2017/09/28 19:52:19--------select catname,cat_id from cat
+2017/09/28 19:52:19--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:52:19--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:52:19--------insert into comment (nick,email,content,pubtime,art_id) values ('','rrr','','1506599539','6')
+2017/09/28 19:52:31--------select catname,cat_id from cat
+2017/09/28 19:52:31--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:52:31--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:52:31--------insert into comment (nick,email,content,pubtime,art_id) values ('','','','1506599551','6')
+2017/09/28 19:52:49--------select catname,cat_id from cat
+2017/09/28 19:52:49--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:52:49--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:52:49--------insert into comment (nick,email,content,pubtime,art_id) values ('','','','1506599569','6')
+2017/09/28 19:52:53--------select catname,cat_id from cat
+2017/09/28 19:52:53--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:52:53--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:52:53--------insert into comment (nick,email,content,pubtime,art_id) values ('','','','1506599573','6')
+2017/09/28 19:53:18--------select catname,cat_id from cat
+2017/09/28 19:53:18--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:53:18--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:53:22--------select catname,cat_id from cat
+2017/09/28 19:53:22--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:53:22--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:54:34--------select catname,cat_id from cat
+2017/09/28 19:54:34--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:54:34--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:54:36--------select catname,cat_id from cat
+2017/09/28 19:54:36--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:54:36--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:54:43--------select catname,cat_id from cat
+2017/09/28 19:54:43--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:54:43--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:56:31--------select catname,cat_id from cat
+2017/09/28 19:56:31--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:56:31--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:56:34--------select catname,cat_id from cat
+2017/09/28 19:56:34--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:56:34--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:58:33--------select catname,cat_id from cat
+2017/09/28 19:58:33--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:58:33--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:58:36--------select catname,cat_id from cat
+2017/09/28 19:58:36--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:58:36--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:59:35--------select catname,cat_id from cat
+2017/09/28 19:59:35--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 19:59:35--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:00:13--------select catname,cat_id from cat
+2017/09/28 20:00:13--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:00:13--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:01:55--------select catname,cat_id from cat
+2017/09/28 20:01:55--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:01:55--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:01:57--------select catname,cat_id from cat
+2017/09/28 20:01:57--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:01:57--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:02:01--------select catname,cat_id from cat
+2017/09/28 20:02:01--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:02:01--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:02:23--------select catname,cat_id from cat
+2017/09/28 20:02:23--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:02:23--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:03:08--------select catname,cat_id from cat
+2017/09/28 20:03:08--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:03:08--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:03:51--------select catname,cat_id from cat
+2017/09/28 20:03:51--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:03:51--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:04:06--------select catname,cat_id from cat
+2017/09/28 20:04:06--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:04:06--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:13:08--------select catname,cat_id from cat
+2017/09/28 20:13:08--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:13:08--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:13:09--------select catname,cat_id from cat
+2017/09/28 20:13:09--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:13:09--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:13:32--------select catname,cat_id from cat
+2017/09/28 20:13:32--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:13:32--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:14:12--------select catname,cat_id from cat
+2017/09/28 20:14:12--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:14:12--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:14:24--------select catname,cat_id from cat
+2017/09/28 20:14:24--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:14:24--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:15:15--------select catname,cat_id from cat
+2017/09/28 20:15:15--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:15:15--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:16:33--------select catname,cat_id from cat
+2017/09/28 20:16:33--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:16:33--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:16:43--------select catname,cat_id from cat
+2017/09/28 20:16:43--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:16:43--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 20:16:56--------select catname,cat_id from cat
+2017/09/28 20:16:56--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 20:16:59--------select catname,cat_id from cat
+2017/09/28 20:16:59--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 20:16:59--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 20:17:22--------select catname,cat_id from cat
+2017/09/28 20:17:22--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 20:17:22--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 20:19:10--------select catname,cat_id from cat
+2017/09/28 20:19:10--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 20:19:10--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 20:19:55--------select catname,cat_id from cat
+2017/09/28 20:19:55--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 20:19:55--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 20:21:00--------select catname,cat_id from cat
+2017/09/28 20:21:00--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 20:21:00--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 20:22:06--------select catname,cat_id from cat
+2017/09/28 20:22:06--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 20:22:06--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 20:22:38--------select catname,cat_id from cat
+2017/09/28 20:22:38--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 20:22:38--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 20:23:46--------select catname,cat_id from cat
+2017/09/28 20:23:46--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 20:23:46--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 20:24:12--------select catname,cat_id from cat
+2017/09/28 20:24:12--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 20:24:12--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 20:24:55--------select catname,cat_id from cat
+2017/09/28 20:24:55--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 20:24:55--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 20:26:01--------select catname,cat_id from cat
+2017/09/28 20:26:01--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 20:26:01--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 20:30:51--------select catname,cat_id from cat
+2017/09/28 20:30:51--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 20:30:52--------select catname,cat_id from cat
+2017/09/28 20:30:52--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 20:30:55--------select catname,cat_id from cat
+2017/09/28 20:30:55--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:30:55--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:31:53--------select catname,cat_id from cat
+2017/09/28 20:31:53--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:31:53--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:32:50--------select catname,cat_id from cat
+2017/09/28 20:32:50--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:32:50--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:34:05--------select catname,cat_id from cat
+2017/09/28 20:34:05--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:34:05--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:37:15--------select catname,cat_id from cat
+2017/09/28 20:37:15--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:37:15--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:38:10--------select catname,cat_id from cat
+2017/09/28 20:38:10--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:38:10--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:39:27--------select catname,cat_id from cat
+2017/09/28 20:39:27--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:39:27--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:39:57--------select catname,cat_id from cat
+2017/09/28 20:39:57--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:39:57--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:40:32--------select catname,cat_id from cat
+2017/09/28 20:40:32--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:40:32--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:42:14--------select catname,cat_id from cat
+2017/09/28 20:42:14--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:42:14--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:42:26--------select catname,cat_id from cat
+2017/09/28 20:42:26--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:42:26--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:43:24--------select catname,cat_id from cat
+2017/09/28 20:43:24--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:43:24--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:43:46--------select catname,cat_id from cat
+2017/09/28 20:43:46--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:43:46--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:45:06--------select catname,cat_id from cat
+2017/09/28 20:45:06--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:45:06--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:46:10--------select catname,cat_id from cat
+2017/09/28 20:46:10--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 20:46:10--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:18:03--------select catname,cat_id from cat
+2017/09/28 21:18:03--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:18:03--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:18:34--------select catname,cat_id from cat
+2017/09/28 21:18:34--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:18:34--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:19:07--------select catname,cat_id from cat
+2017/09/28 21:19:07--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:19:07--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:20:48--------select catname,cat_id from cat
+2017/09/28 21:20:48--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:20:48--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:21:15--------select catname,cat_id from cat
+2017/09/28 21:21:15--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:21:15--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:24:23--------select catname,cat_id from cat
+2017/09/28 21:24:23--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:24:23--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:25:02--------select catname,cat_id from cat
+2017/09/28 21:25:02--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:25:02--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:27:25--------select catname,cat_id from cat
+2017/09/28 21:27:25--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:27:25--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:30:26--------select catname,cat_id from cat
+2017/09/28 21:30:26--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:30:26--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:31:00--------select catname,cat_id from cat
+2017/09/28 21:31:01--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:31:01--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:31:08--------select catname,cat_id from cat
+2017/09/28 21:31:08--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:31:08--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:31:44--------select catname,cat_id from cat
+2017/09/28 21:31:44--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:31:44--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:33:25--------select catname,cat_id from cat
+2017/09/28 21:33:25--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:33:25--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:34:11--------select catname,cat_id from cat
+2017/09/28 21:34:11--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:34:11--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:35:21--------select catname,cat_id from cat
+2017/09/28 21:35:21--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:35:21--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:35:25--------select catname,cat_id from cat
+2017/09/28 21:35:25--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:35:25--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:36:19--------select catname,cat_id from cat
+2017/09/28 21:36:19--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:36:19--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:36:58--------select catname,cat_id from cat
+2017/09/28 21:36:58--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:36:58--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:38:00--------select catname,cat_id from cat
+2017/09/28 21:38:00--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:38:00--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:39:06--------select catname,cat_id from cat
+2017/09/28 21:39:07--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:39:07--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:39:31--------select catname,cat_id from cat
+2017/09/28 21:39:31--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:39:31--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:40:14--------select catname,cat_id from cat
+2017/09/28 21:40:14--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:40:14--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:40:48--------select catname,cat_id from cat
+2017/09/28 21:40:48--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:40:48--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:45:14--------select catname,cat_id from cat
+2017/09/28 21:45:14--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:45:14--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:45:58--------select catname,cat_id from cat
+2017/09/28 21:45:58--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:45:59--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:46:04--------select catname,cat_id from cat
+2017/09/28 21:46:04--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:46:04--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:46:18--------select catname,cat_id from cat
+2017/09/28 21:46:18--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:46:18--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:47:10--------select catname,cat_id from cat
+2017/09/28 21:47:10--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:47:11--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:47:44--------select catname,cat_id from cat
+2017/09/28 21:47:44--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:47:44--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:48:22--------select catname,cat_id from cat
+2017/09/28 21:48:22--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:48:22--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:48:56--------select catname,cat_id from cat
+2017/09/28 21:48:56--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:48:56--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:49:29--------select catname,cat_id from cat
+2017/09/28 21:49:29--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:49:29--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:50:13--------select catname,cat_id from cat
+2017/09/28 21:50:13--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:50:13--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:59:26--------select catname,cat_id from cat
+2017/09/28 21:59:27--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 21:59:27--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 22:00:55--------select catname,cat_id from cat
+2017/09/28 22:00:55--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 22:00:55--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 22:02:22--------select catname,cat_id from cat
+2017/09/28 22:02:22--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 22:02:22--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='15'
+2017/09/28 22:04:36--------select catname,cat_id from cat
+2017/09/28 22:04:36--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id=''
+2017/09/28 22:04:36--------select catname,cat_id from cat
+2017/09/28 22:04:36--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 22:04:39--------select catname,cat_id from cat
+2017/09/28 22:04:39--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:04:39--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:05:25--------select catname,cat_id from cat
+2017/09/28 22:05:25--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 22:05:27--------select catname,cat_id from cat
+2017/09/28 22:05:27--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:05:27--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:05:43--------select catname,cat_id from cat
+2017/09/28 22:05:43--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:05:43--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:05:59--------select catname,cat_id from cat
+2017/09/28 22:05:59--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:05:59--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:06:34--------select catname,cat_id from cat
+2017/09/28 22:06:34--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:06:34--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:07:49--------select catname,cat_id from cat
+2017/09/28 22:07:49--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id=''
+2017/09/28 22:07:49--------select catname,cat_id from cat
+2017/09/28 22:07:49--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 22:07:52--------select catname,cat_id from cat
+2017/09/28 22:07:52--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 22:07:52--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 22:08:20--------select catname,cat_id from cat
+2017/09/28 22:08:20--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 22:08:20--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 22:08:33--------select catname,cat_id from cat
+2017/09/28 22:08:33--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:08:33--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:08:42--------select catname,cat_id from cat
+2017/09/28 22:08:42--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 22:08:42--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 22:09:39--------select catname,cat_id from cat
+2017/09/28 22:09:39--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 22:09:39--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 22:09:52--------select catname,cat_id from cat
+2017/09/28 22:09:52--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 22:09:52--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 22:10:04--------select catname,cat_id from cat
+2017/09/28 22:10:04--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:10:04--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:11:28--------select catname,cat_id from cat
+2017/09/28 22:11:28--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:11:28--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:12:00--------select catname,cat_id from cat
+2017/09/28 22:12:00--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:12:00--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:12:24--------select catname,cat_id from cat
+2017/09/28 22:12:24--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:12:24--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:13:05--------select catname,cat_id from cat
+2017/09/28 22:13:05--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:13:05--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:13:39--------select catname,cat_id from cat
+2017/09/28 22:13:39--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:13:39--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:14:45--------select catname,cat_id from cat
+2017/09/28 22:14:45--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:14:45--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:15:21--------select catname,cat_id from cat
+2017/09/28 22:15:21--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:15:21--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 22:15:40--------select catname,cat_id from cat
+2017/09/28 22:15:40--------select art.art_id,art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id order by art.art_id
+2017/09/28 22:15:41--------select catname,cat_id from cat
+2017/09/28 22:15:41--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 22:15:42--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='6'
+2017/09/28 22:17:38--------select catname,cat_id from cat
+2017/09/28 22:17:38--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 22:17:38--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='1'
+2017/09/28 23:13:29--------select catname,cat_id from cat
+2017/09/28 23:13:29--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 23:13:29--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 23:13:29--------select * from comment
+2017/09/28 23:14:04--------select catname,cat_id from cat
+2017/09/28 23:14:04--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 23:14:04--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 23:14:04--------select * from comment
+2017/09/28 23:14:58--------select catname,cat_id from cat
+2017/09/28 23:14:58--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 23:14:58--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 23:14:58--------select * from comment
+2017/09/28 23:16:12--------select catname,cat_id from cat
+2017/09/28 23:16:12--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 23:16:12--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 23:16:12--------select * from comment
+2017/09/28 23:17:53--------select catname,cat_id from cat
+2017/09/28 23:17:53--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 23:17:53--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 23:17:53--------select * from comment ORDER by pubtime
+2017/09/28 23:18:27--------select catname,cat_id from cat
+2017/09/28 23:18:27--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 23:18:27--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 23:18:27--------select * from comment ORDER by pubtime ASC 
+2017/09/28 23:19:09--------select catname,cat_id from cat
+2017/09/28 23:19:09--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 23:19:09--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 23:19:10--------select * from comment ORDER by pubtime DESC 
+2017/09/28 23:19:38--------select catname,cat_id from cat
+2017/09/28 23:19:38--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 23:19:38--------select art.title,art.content,art.pubtime,user.name,cat.catname,art.comm from (art left join cat on art.cat_id=cat.cat_id) LEFT join user on art.user_id=user.user_id where art.art_id='5'
+2017/09/28 23:19:38--------select * from comment ORDER by pubtime DESC 

@@ -1,0 +1,90 @@
+2017/09/25 00:00:00--------select catname,cat_id from cat
+2017/09/25 00:00:11--------select * from art where title='好好学习'
+2017/09/25 00:00:19--------insert into art (title,cat_id,content,tags,pubtime) values ('好好学习','1','哈哈哈哈好好或或或或或或或或或或或或或或或或','给给给','1506268819')
+2017/09/25 00:00:19--------select num from cat where cat_id = '1'
+2017/09/25 00:00:19--------update cat set cat_id='1',num='1' where cat_id='1'
+2017/09/25 00:00:21--------select catname,cat_id from cat
+2017/09/25 00:00:28--------select * from art where title='热热热'
+2017/09/25 00:00:32--------insert into art (title,cat_id,content,tags,pubtime) values ('热热热','2','2','fff','1506268832')
+2017/09/25 00:00:32--------select num from cat where cat_id = '2'
+2017/09/25 00:00:32--------update cat set cat_id='2',num='1' where cat_id='2'
+2017/09/25 00:00:33--------select catname,cat_id from cat
+2017/09/25 00:00:40--------select * from art where title='天天'
+2017/09/25 00:00:43--------insert into art (title,cat_id,content,tags,pubtime) values ('天天','3','谷歌','t他','1506268843')
+2017/09/25 00:00:43--------select num from cat where cat_id = '3'
+2017/09/25 00:00:43--------update cat set cat_id='3',num='1' where cat_id='3'
+2017/09/25 00:00:44--------select catname,cat_id from cat
+2017/09/25 00:00:47--------select catname,cat_id from cat
+2017/09/25 00:00:49--------select catname,cat_id from cat
+2017/09/25 00:01:12--------select * from art
+2017/09/25 00:03:46--------select * from art
+2017/09/25 00:04:31--------select * from art
+2017/09/25 00:04:51--------select * from art
+2017/09/25 00:06:02--------select * from art
+2017/09/25 00:06:05--------select * from cat ORDER by cat_id
+2017/09/25 00:06:32--------select * from cat ORDER by cat_id
+2017/09/25 00:09:11--------select * from cat ORDER by cat_id
+2017/09/25 00:09:16--------select * from art
+2017/09/25 00:09:17--------select catname,cat_id from cat
+2017/09/25 00:09:19--------select * from cat ORDER by cat_id
+2017/09/25 00:10:53--------select * from cat ORDER by cat_id
+2017/09/25 00:10:57--------select * from cat ORDER by cat_id
+2017/09/25 00:11:56--------select * from cat ORDER by cat_id
+2017/09/25 00:13:15--------select * from cat ORDER by cat_id
+2017/09/25 00:13:44--------select * from cat ORDER by cat_id
+2017/09/25 00:16:19--------select * from cat ORDER by cat_id
+2017/09/25 00:16:40--------select * from cat ORDER by cat_id
+2017/09/25 00:16:48--------select cat_id,num from cat where cat_id=1
+2017/09/25 00:17:36--------select * from art
+2017/09/25 00:17:56--------select * from cat ORDER by cat_id
+2017/09/25 00:19:01--------select * from cat ORDER by cat_id
+2017/09/25 00:19:15--------select * from art
+2017/09/25 00:19:24--------select catname,cat_id from cat
+2017/09/25 00:19:42--------select * from art
+2017/09/25 00:19:48--------select * from cat ORDER by cat_id
+2017/09/25 00:19:51--------select * from cat ORDER by cat_id
+2017/09/25 00:19:53--------select * from cat ORDER by cat_id
+2017/09/25 00:19:54--------select * from cat ORDER by cat_id
+2017/09/25 00:19:55--------select * from cat ORDER by cat_id
+2017/09/25 00:19:56--------select * from cat ORDER by cat_id
+2017/09/25 00:20:10--------select * from cat ORDER by cat_id
+2017/09/25 00:20:11--------select * from cat ORDER by cat_id
+2017/09/25 00:21:18--------select * from cat ORDER by cat_id
+2017/09/25 00:22:09--------select * from cat ORDER by cat_id
+2017/09/25 00:22:12--------select * from cat ORDER by cat_id
+2017/09/25 00:22:17--------select * from cat ORDER by cat_id
+2017/09/25 00:22:19--------select * from cat ORDER by cat_id
+2017/09/25 00:22:24--------select * from cat ORDER by cat_id
+2017/09/25 00:22:25--------select * from cat ORDER by cat_id
+2017/09/25 00:22:26--------select * from cat ORDER by cat_id
+2017/09/25 00:22:27--------select catname,cat_id from cat
+2017/09/25 00:22:29--------select * from art
+2017/09/25 00:22:52--------select catname,cat_id from cat
+2017/09/25 17:19:08--------select catname,cat_id from cat
+2017/09/25 17:19:29--------select catname,cat_id from cat
+2017/09/25 17:19:33--------select * from art where title='ww'
+2017/09/25 17:19:34--------insert into art (title,cat_id,content,tags,pubtime) values ('ww','1','www','www','1506331174')
+2017/09/25 17:19:34--------select num from cat where cat_id = '1'
+2017/09/25 17:19:35--------update cat set cat_id='1',num='2' where cat_id='1'
+2017/09/25 17:19:36--------select catname,cat_id from cat
+2017/09/25 17:21:10--------select * from art
+2017/09/25 17:22:15--------select * from art
+2017/09/25 17:31:42--------select * from art
+2017/09/25 17:32:05--------select * from art
+2017/09/25 17:38:41--------select * from art
+2017/09/25 17:39:51--------select * from art
+2017/09/25 17:39:52--------select * from art
+2017/09/25 17:40:43--------select * from art
+2017/09/25 17:41:17--------select * from art
+2017/09/25 17:41:20--------错误查询:select art_id from art where art_id = 错误描述:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2017/09/25 17:41:45--------错误查询:select art_id from art where art_id=错误描述:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2017/09/25 17:41:46--------错误查询:select art_id from art where art_id=错误描述:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2017/09/25 17:42:13--------select art_id from art where art_id=3
+2017/09/25 17:42:20--------select art_id from art where art_id=1
+2017/09/25 17:42:50--------select * from art
+2017/09/25 17:42:53--------select art_id from art where art_id='3'
+2017/09/25 17:43:20--------select * from art
+2017/09/25 17:43:22--------select art_id from art where art_id='3'
+2017/09/25 17:43:47--------select * from art
+2017/09/25 17:43:48--------select art_id from art where art_id='1'
+2017/09/25 17:44:09--------select art_id from art where art_id='1'

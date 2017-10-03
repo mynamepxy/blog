@@ -1,0 +1,36 @@
+-----------------------------------------
+2017/09/21 19:30:05
+select count(*) from cat where catname='邓斯恒'
+Access denied for user 'root'@'localhost' (using password: NO)
+-----------------------------------------
+
+-----------------------------------------
+2017/09/21 19:30:05
+insert into cat (catname) values ('邓斯恒')
+Access denied for user 'root'@'localhost' (using password: NO)
+-----------------------------------------
+
+-----------------------------------------
+2017/09/21 19:30:29
+select count(*) from cat where catname='邓斯恒'
+Access denied for user 'root'@'localhost' (using password: NO)
+-----------------------------------------
+
+-----------------------------------------
+2017/09/21 19:30:29
+insert into cat (catname) values ('邓斯恒')
+Access denied for user 'root'@'localhost' (using password: NO)
+-----------------------------------------
+
+-----------------------------------------
+2017/09/21 19:30:45
+select count(*) from cat where catname='邓斯恒'
+Access denied for user 'root'@'localhost' (using password: NO)
+-----------------------------------------
+
+-----------------------------------------
+2017/09/21 19:30:45
+insert into cat (catname) values ('邓斯恒')
+Access denied for user 'root'@'localhost' (using password: NO)
+-----------------------------------------
+
